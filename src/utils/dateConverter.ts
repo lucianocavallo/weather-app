@@ -73,4 +73,4 @@ const dateConverter = (date: number) => {
   return `${day}, ${converted.getDate()} ${month}`;
 };
 
-export default dateConverter;
+export { dateConverter };

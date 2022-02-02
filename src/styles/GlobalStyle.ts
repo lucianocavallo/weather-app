@@ -1,5 +1,5 @@
 import styled, { createGlobalStyle } from 'styled-components';
-
+import vars from './vars';
 const GlobalStyle = createGlobalStyle`
   body {
   margin: 0;
@@ -24,6 +24,17 @@ const GlobalStyle = createGlobalStyle`
   }
   ul {
     list-style: none;
+  }
+  .App {
+  color: ${vars.pr_white};
+  display: flex;
+  flex-direction: column;
+  }
+
+  @media (min-width: 900px) {
+    .App {
+      flex-direction: row;
+    }
   }
 `;
 
