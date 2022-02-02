@@ -17,5 +17,5 @@
     "skipLibCheck": true,
     "rootDir": "./src"
   },
-  "include": ["src/**/*"]
+  "include": ["src/**/*", "types.d.ts"]
 }
