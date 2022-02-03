@@ -33,4 +33,5 @@ bower_components
 .env.production.local
 .env.local
 
+dist
 # End of https://www.toptal.com/developers/gitignore/api/windows,linux,macos,react

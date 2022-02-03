@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack serve",
-    "build:dev": "webpack",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack serve --config webpack.config.dev.js",
+    "build:dev": "webpack --config webpack.config.dev.js",
+    "build": "webpack"
   },
   "keywords": [],
   "author": "Luciano Cavallo <lucianocavallo@gmail.com>",
