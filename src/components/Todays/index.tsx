@@ -72,7 +72,7 @@ const Todays: React.FC<TodaysProps> = ({
               <span></span>
             </CloudsBg>
           </CloudsBgContainer>
-          <PrimaryImg src={imgSrc ? imgSrc : ''} alt="" />
+          <PrimaryImg src={imgSrc ? imgSrc : ''} alt="todays weather image" />
           <TempContainer>
             <span>{kelvinToCelsius(current.main.temp)}</span>
             <span>ºC</span>

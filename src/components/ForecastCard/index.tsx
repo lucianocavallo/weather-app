@@ -50,7 +50,7 @@ const ForecastCard: React.FC<ForecastProps> = ({ forecast, index }) => {
       <Date>{index === 0 ? 'Tomorrow' : dateConverter(forecast.dt)}</Date>
       <Image
         src={imgSrc ? imgSrc : ''}
-        alt=""
+        alt="forecast image"
         className="WaForecastCard__img"
       />
       <TempContainer>
